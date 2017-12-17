@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Discuss
 
 To start your Phoenix app:
@@ -18,3 +19,9 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+=======
+# discuss-web-app
+
+A web application developed with Elixir and Phoenix.
+It is just a sample exercise from udemy course https://www.udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/
+>>>>>>> 4920f0cd5f9ac39381b10df75ac8a080ddd00841
