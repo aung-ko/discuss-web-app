@@ -10,6 +10,11 @@ defmodule Discuss.TopicController do
       topics = Repo.all(Topic)
       render conn, "index.html", topics: topics
     end
+
+    def show(conn, %{"id" => topic_id}) do
+      topic = Repo.get(Topic, topic_id)
+      render conn, "show.html", topic: topic
+    end
   
     def new(conn, _params) do
       # struct = %Topic{}
