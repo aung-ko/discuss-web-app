@@ -115,8 +115,6 @@ function commentTemplate(comment){
     `;
 }
 
-
-
 // document.querySelector('button').addEventListener('click', function(){
 //   channel.push('comment:hello', {hi: 'there!'});
 // });
